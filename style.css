@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+padding: 15px;
+background-color: #e8e8f1;
+}
+.container{
+    padding: 10px;
+    display: flex;
+}
+.texto{
+    width: 48%;
+    height: 550px;
+    margin-left: 10px;
+    padding: 5px;
+    color: #52525A;
+    margin-top: 100px;
+}
+.estrella1{
+    padding-left: 5px;
+background-color: orange;
+width: 50px;
+height: 50px;
+margin-bottom: 12px;
+border-radius: 100px;
+}
+.titulo{
+    font-family: "Sora", sans-serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: black;
+}
+.parrafo{
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 37px;
+}
+.lista{
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    list-style: none;
+    display:flex;
+    
+}
+ul{
+    padding-top: 15px;
+}
+img{
+    padding-right: 15px;
+}
+.doscontainer{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.google{
+    width: 300px;
+    float: right;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.meta{
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    margin-top: 250px;
+    background-color: white;
+    font-family: "Sora", sans-serif; 
+    font-size: 16px;
+    line-height: 30px;
+    color: #52525A;
+    margin-left: 50px;
+}
+.logo{
+    width: 80px;
+    height: 28px;
+}
+.nombre1{
+    font-family: "Sora", sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.nombre2{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    color: black;
+}
+.texto2{
+    font-family: "Sora", sans-serif; 
+    font-size: 16px;
+    line-height: 30px;
+    color: #52525A;
+
+}
+.logo2{
+    width: 80px;
+    height: 28px;
+    
+}
+.titulo2{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.estrella2{
+    justify-content: center;
+}
+.titulo3{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
