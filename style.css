@@ -14,7 +14,7 @@ background-color: #e8e8f1;
     width: 48%;
     height: 550px;
     margin-left: 10px;
-    padding: 5px;
+    padding: 10px;
     color: #52525A;
     margin-top: 100px;
 }
@@ -52,9 +52,11 @@ img{
     padding-right: 15px;
 }
 .doscontainer{
+    padding: 10px;
     width: 50%;
     margin-top: 100px;
     margin-left: 10px;
+    
 }
 .google{
     width: 300px;
@@ -119,4 +121,17 @@ img{
     align-items: center;
     margin-bottom: 15px;
 
+}
+@media (max-width: 640px){
+    .google{
+        position: relative;
+        left: 50px;
+    }
+    .container{
+        flex-direction: column;}
+        .texto,
+        .doscontainer{
+            width: 100%;
+            max-width: none;
+        }
 }
