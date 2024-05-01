@@ -1,0 +1,159 @@
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    padding-bottom: 92px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a {
+    color: #909193;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #223344;
+}
+
+nav img {
+    margin-right: 5px;
+}
+
+.ala {
+    display: flex;
+    justify-content: space-between;
+    background-color: #223344;
+    border-radius: 15px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 20;
+}
+
+#mode {
+    height: 24px;
+}
+
+.mode img {
+    margin-right: 4px;
+    height: 24px;
+}
+
+#sun {
+    border-radius: 50%;
+    background-color: white;
+}
+
+#moon {
+    margin-left: 0px;
+}
+
+main {
+    display: flex;
+}
+
+.seccion1,
+.seccion2 {
+    flex: 1;
+}
+
+.seccion2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+p,
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #909193;
+}
+
+#title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #223344;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #223344;
+    margin-top: 12px;
+}
+
+#btn1 {
+    background-color: #2A4DD0;
+    border: none;
+    color: #F2F9FE;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 16px;
+    margin-right: 32px;
+}
+
+#btn2 {
+    background-color: #FFFFFF;
+    border: none;
+    color: #2A4DD0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 16px;
+    text-decoration: underline;
+    /* Subraya el texto */
+}
+
+button,
+input[type="button"] {
+    font-family: 'Poppins', sans-serif;
+    /* Usa la fuente Poppins */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.botones {
+    margin-bottom: 40px;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    /* Usa la fuente Poppins */
+    color: #909193;
+    margin-bottom: 90px;
+}
+
+.list small {
+    margin-right: 20px;
+}
+
+.list img {
+    margin-right: 8px;
+}
